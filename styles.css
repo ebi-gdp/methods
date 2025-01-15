@@ -4,4 +4,5 @@
   &::after {
     background-color: #862e86;
   }
+  overflow-x: hidden;
 }
