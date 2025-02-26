@@ -6,7 +6,8 @@ project:
 website:
   title: "PGS methods competition"
   site-url: 'https://methods.geneticscores.org/'
-  favicon: img/favicon.ico  
+  favicon: img/favicon.ico
+  google-analytics: "G-9NL8X076KX"
   navbar:
     logo: "img/logo.png"  
     tools:
