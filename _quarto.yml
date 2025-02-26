@@ -20,8 +20,6 @@ website:
         - text: Report a bug
           url:  https://github.com/intervene-EU-H2020/pgs-method-compare/issues/new
     left:
-      - href: index.qmd
-        text: About
       - href: leaderboard.qmd
         text: Leaderboards
       - href: meta.qmd
@@ -36,6 +34,9 @@ website:
         text: Glossary
       - href: acknowledgements.qmd
         text: Acknowledgements
+      - href: "https://geneticscores.org"
+        text: GeneticScores.org
+        
 
 format:
   html:
