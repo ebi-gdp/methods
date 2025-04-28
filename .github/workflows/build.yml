@@ -20,13 +20,10 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
 
       - name: Install Quarto
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y quarto
+        uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render Quarto project
-        run: |
-          quarto render
+      - name: Render Quarto Project
+        uses: quarto-dev/quarto-actions/render@v2
 
       - name: Upload Rendered Artefact
         uses: actions/upload-artifact@v4
