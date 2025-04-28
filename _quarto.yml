@@ -5,8 +5,9 @@ project:
 
 website:
   title: "PGS methods competition"
-  site-url: 'https://methodscomparison.intervenegeneticscores.org/'
-  site-path: '/'
+  site-url: 'https://methods.geneticscores.org/'
+  favicon: img/favicon.ico
+  google-analytics: "G-9NL8X076KX"
   navbar:
     logo: "img/logo.png"  
     tools:
@@ -19,8 +20,6 @@ website:
         - text: Report a bug
           url:  https://github.com/intervene-EU-H2020/pgs-method-compare/issues/new
     left:
-      - href: index.qmd
-        text: About
       - href: leaderboard.qmd
         text: Leaderboards
       - href: meta.qmd
@@ -35,6 +34,9 @@ website:
         text: Glossary
       - href: acknowledgements.qmd
         text: Acknowledgements
+      - href: "https://geneticscores.org"
+        text: GeneticScores.org
+        
 
 format:
   html:
